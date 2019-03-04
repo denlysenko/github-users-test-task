@@ -1,0 +1,15 @@
+<form (submit)="onSubmit(input)">
+  <mat-form-field appearance="outline">
+    <mat-label>Enter country</mat-label>
+    <input matInput
+           #input
+           id="search-input"
+           type="text"
+           placeholder="Enter country">
+  </mat-form-field>
+  <div class="btn">
+    <button type="submit"
+            mat-raised-button
+            color="primary">Search</button>
+  </div>
+</form>
